@@ -1,0 +1,34 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "6f02254e-3737-427c-af44-63c2421ec34f"
+  core:
+    disabledPackages: [
+      "atom-beautify"
+      "build-tools"
+      "build-cmd"
+      "jenkins"
+      "linter-rubocop"
+      "auto-encoding"
+      "link"
+    ]
+    telemetryConsent: "limited"
+  "document-outline":
+    showByDefault: true
+  editor:
+    fontSize: 22
+    tabType: "hard"
+  "exception-reporting":
+    userId: "97f77401-b4ee-4450-a190-9ad644cb150c"
+  jenkins:
+    password: "admin"
+    url: "http://localhost:8080/"
+    username: "admin"
+  linter: {}
+  "nav-panel":
+    noDups: false
+    sort: false
+  "ruby-test": {}
+  "tree-view": {}
+  welcome:
+    showOnStartup: false

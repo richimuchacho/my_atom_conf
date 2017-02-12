@@ -1,0 +1,80 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\Richi\\AppData\\Local\\Temp\\d-117112-5440-p3pmq6\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\Richi\\AppData\\Local\\Temp\\d-117112-5440-p3pmq6\\package.tgz",
+        "spec": "C:\\Users\\Richi\\AppData\\Local\\Temp\\d-117112-5440-p3pmq6\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\Richi\\AppData\\Local\\Temp\\apm-install-dir-117112-5440-glqqal"
+    ]
+  ],
+  "_from": "..\\d-117112-5440-p3pmq6\\package.tgz",
+  "_id": "build-platformio@1.2.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/build-platformio",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\Richi\\AppData\\Local\\Temp\\d-117112-5440-p3pmq6\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\Richi\\AppData\\Local\\Temp\\d-117112-5440-p3pmq6\\package.tgz",
+    "spec": "C:\\Users\\Richi\\AppData\\Local\\Temp\\d-117112-5440-p3pmq6\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-117112-5440-p3pmq6\\package.tgz",
+  "_shasum": "f83bcbe45dc2f9b857f9c78845f4fbaa5a325449",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\Richi\\AppData\\Local\\Temp\\d-117112-5440-p3pmq6\\package.tgz",
+  "_where": "C:\\Users\\Richi\\AppData\\Local\\Temp\\apm-install-dir-117112-5440-glqqal",
+  "bugs": {
+    "url": "https://github.com/mdeboer/build-platformio/issues"
+  },
+  "dependencies": {
+    "ini": "^1.3.4",
+    "promisify-node": "^0.4.0"
+  },
+  "description": "Build service provider for PlatformIO",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/mdeboer/build-platformio",
+  "keywords": [
+    "PlatformIO",
+    "IoT",
+    "embedded",
+    "arduino",
+    "mbed",
+    "build",
+    "fpga"
+  ],
+  "license": "GPL-2.0",
+  "main": "./main",
+  "name": "build-platformio",
+  "optionalDependencies": {},
+  "providedServices": {
+    "builder": {
+      "description": "PlatformIO Build Provider for Atom",
+      "versions": {
+        "2.0.0": "provideBuilder"
+      }
+    }
+  },
+  "readme": "# PlatformIO build provider for Atom [![Donate for PlatformIO.Org](https://img.shields.io/donate/PlatformIO.png)](http://platformio.org/donate)\n\nThis is the stand-alone stripped down PlatformIO build service provider for Atom from the `platformio-ide` package. It's modified to reduce the number of needed libraries and therefore has no integration with `platformio-ide-terminal` nor does it ship with the platformio cli tools. See the [official documentation](http://docs.platformio.org/en/latest/installation.html) on how to install the cli tools on your platform.\n\nUse this package if you only require the build tools integration. If you want to use all features please disable this package and install the `platformio-ide` package.\n\n## Requirements\n\n* PlatformIO CLI tools\n* atom-build\n\n## Troubleshooting\n\n### Build fails, .o files not found\nThe problem is most likely caused by Atom not using the correct environment PATH variable. This is a common problem on Mac OSX when launching Atom as application instead of from the terminal. Make sure your init.coffee doesn't mess with your `process.env.PATH` setting.\n\n### Command platformio not found\nPlease install the PlatformIO CLI files (see the [official documentation](http://docs.platformio.org/en/latest/installation.html) on how to do this). Make sure that after installation your PATH is set correctly and you can execute `platformio` in your terminal.\n\n## Bugs\nPlease do not post bugs related to PlatformIO. This is only a build service provider invoking the platformio command and has nothing to do with the working of PlatformIO itself. Please see the official [PlatformIO website](http://platformio.org/) if you think you've found a bug in PlatformIO.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdeboer/build-platformio.git"
+  },
+  "version": "1.2.2"
+}

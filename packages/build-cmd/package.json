@@ -1,0 +1,95 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\Richi\\AppData\\Local\\Temp\\d-117112-5368-j34fmq\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\Richi\\AppData\\Local\\Temp\\d-117112-5368-j34fmq\\package.tgz",
+        "spec": "C:\\Users\\Richi\\AppData\\Local\\Temp\\d-117112-5368-j34fmq\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\Richi\\AppData\\Local\\Temp\\apm-install-dir-117112-5368-312um7"
+    ]
+  ],
+  "_from": "..\\d-117112-5368-j34fmq\\package.tgz",
+  "_id": "build-cmd@0.5.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/build-cmd",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\Richi\\AppData\\Local\\Temp\\d-117112-5368-j34fmq\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\Richi\\AppData\\Local\\Temp\\d-117112-5368-j34fmq\\package.tgz",
+    "spec": "C:\\Users\\Richi\\AppData\\Local\\Temp\\d-117112-5368-j34fmq\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-117112-5368-j34fmq\\package.tgz",
+  "_shasum": "68c0219edbad1260f9527dfd91e451aeb3163971",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\Richi\\AppData\\Local\\Temp\\d-117112-5368-j34fmq\\package.tgz",
+  "_where": "C:\\Users\\Richi\\AppData\\Local\\Temp\\apm-install-dir-117112-5368-312um7",
+  "bugs": {
+    "url": "https://github.com/idleberg/atom-build-cmd/issues"
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.3.1"
+  },
+  "description": "Atom Build provider for the Windows Command Prompt, runs Batch scripts",
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "coffeelint-stylish": "^0.1.2",
+    "eslint": "^3.13.1",
+    "eslint-config-atom-build": "^4.0.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-coffeelint": "^0.6.0",
+    "gulp-debug": "^3.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-jsonlint": "^1.2.0",
+    "gulp-lesshint": "^3.0.0",
+    "jshint": "^2.9.4"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/idleberg/atom-build-cmd#readme",
+  "keywords": [
+    "buildprovider",
+    "batch",
+    "windows",
+    "cmd",
+    "bat"
+  ],
+  "license": "MIT",
+  "main": "lib/provider.js",
+  "name": "build-cmd",
+  "optionalDependencies": {},
+  "package-deps": [
+    "build"
+  ],
+  "providedServices": {
+    "builder": {
+      "description": "Runs Batch scripts",
+      "versions": {
+        "2.0.0": "provideBuilder"
+      }
+    }
+  },
+  "readme": "# build-cmd\n\n[![apm](https://img.shields.io/apm/l/build-cmd.svg?style=flat-square)](https://atom.io/packages/build-cmd)\n[![apm](https://img.shields.io/apm/v/build-cmd.svg?style=flat-square)](https://atom.io/packages/build-cmd)\n[![apm](https://img.shields.io/apm/dm/build-cmd.svg?style=flat-square)](https://atom.io/packages/build-cmd)\n[![Travis](https://img.shields.io/travis/idleberg/atom-build-cmd.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-build-cmd)\n[![David](https://img.shields.io/david/idleberg/atom-build-cmd.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-cmd)\n[![David](https://img.shields.io/david/dev/idleberg/atom-build-cmd.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-cmd?type=dev)\n\n[Atom Build](https://atombuild.github.io/) provider for the Windows Command Prompt, runs Batch scripts.\n\n## Installation\n\n### apm\n\nInstall `build-cmd` from Atom's [Package Manager](http://flight-manual.atom.io/using-atom/sections/atom-packages/) or the command-line equivalent:\n\n`$ apm install build-cmd`\n\n### Using Git\n\nChange to your Atom packages directory:\n\n```bash\n$ cd %USERPROFILE%\\.atom\\packages\n```\n\nClone repository as `build-cmd`:\n\n```bash\n$ git clone https://github.com/idleberg/atom-build-cmd build-cmd\n```\n\nInside the cloned directory, install Node dependencies:\n\n```bash\n$ yarn || npm install\n```\n\n## Usage\n\n### Build\n\nBefore you can build, select an active target with your preferred build option.\n\nAvailable targets:\n\n* `Batch` — runs Batch script\n\n### Shortcuts\n\nHere's a reminder of the default shortcuts you can use with this package:\n\n**Choose target**\n\n<kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd> or <kbd>F7</kbd>\n\n**Toggle build panel**\n\n<kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>V</kbd> or <kbd>F8</kbd>\n\n**Build script**\n\n<kbd>Super</kbd>+<kbd>Alt</kbd>+<kbd>B</kbd> or <kbd>F9</kbd>\n\n## License\n\nThis work is licensed under the [The MIT License](LICENSE.md).\n\n## Donate\n\nYou are welcome support this project using [Flattr](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/idleberg/atom-build-cmd) or Bitcoin `17CXJuPsmhuTzFV2k4RKYwpEHVjskJktRd`",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idleberg/atom-build-cmd.git"
+  },
+  "scripts": {
+    "test": "gulp lint"
+  },
+  "version": "0.5.0"
+}
