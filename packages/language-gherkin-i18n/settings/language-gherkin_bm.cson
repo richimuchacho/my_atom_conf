@@ -1,0 +1,27 @@
+'.text.gherkin.feature.bm':
+  'editor':
+    'completions': [
+      'Fungsi:'
+      'Latar Belakang:'
+      'Senario:'
+      'Situasi:'
+      'Keadaan:'
+      'Kerangka Senario:'
+      'Kerangka Situasi:'
+      'Kerangka Keadaan:'
+      'Garis Panduan Senario:'
+      'Contoh:'
+      'Diberi '
+      'Bagi '
+      'Apabila '
+      'Maka '
+      'Kemudian '
+      'Tetapi '
+      'Tapi '
+      'Dan '
+    ]
+    'increaseIndentPattern':       'Senario: .*'
+      'Situasi: .*'
+      'Keadaan: .*'
+
+    'commentStart': '# '

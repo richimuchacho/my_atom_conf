@@ -1,0 +1,18 @@
+'.text.gherkin.feature.af':
+  'editor':
+    'completions': [
+      'Funksie:'
+      'Besigheid Behoefte:'
+      'Vermoë:'
+      'Agtergrond:'
+      'Situasie:'
+      'Situasie Uiteensetting:'
+      'Voorbeelde:'
+      'Gegewe '
+      'Wanneer '
+      'Dan '
+      'Maar '
+      'En '
+    ]
+    'increaseIndentPattern':       'Situasie: .*'
+    'commentStart': '# '

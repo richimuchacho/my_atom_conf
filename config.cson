@@ -2,6 +2,8 @@
   "atom-beautify":
     general:
       _analyticsUserId: "6f02254e-3737-427c-af44-63c2421ec34f"
+  build:
+    scrollOnError: true
   core:
     disabledPackages: [
       "atom-beautify"
@@ -16,7 +18,7 @@
   "document-outline":
     showByDefault: true
   editor:
-    fontSize: 22
+    fontSize: 16
     tabType: "hard"
   "exception-reporting":
     userId: "97f77401-b4ee-4450-a190-9ad644cb150c"
@@ -29,6 +31,12 @@
     noDups: false
     sort: false
   "ruby-test": {}
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    scrollSyncType: "Vertical + Horizontal"
   "tree-view": {}
   welcome:
     showOnStartup: false

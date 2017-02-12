@@ -1,0 +1,18 @@
+'.text.gherkin.feature.is':
+  'editor':
+    'completions': [
+      'Eiginleiki:'
+      'Bakgrunnur:'
+      'Atburðarás:'
+      'Lýsing Atburðarásar:'
+      'Lýsing Dæma:'
+      'Dæmi:'
+      'Atburðarásir:'
+      'Ef '
+      'Þegar '
+      'Þá '
+      'En '
+      'Og '
+    ]
+    'increaseIndentPattern':       'Atburðarás: .*'
+    'commentStart': '# '

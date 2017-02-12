@@ -1,0 +1,59 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\Richi\\AppData\\Local\\Temp\\d-117112-6588-di5sl6\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\Richi\\AppData\\Local\\Temp\\d-117112-6588-di5sl6\\package.tgz",
+        "spec": "C:\\Users\\Richi\\AppData\\Local\\Temp\\d-117112-6588-di5sl6\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\Richi\\AppData\\Local\\Temp\\apm-install-dir-117112-6588-1ctahb5"
+    ]
+  ],
+  "_from": "..\\d-117112-6588-di5sl6\\package.tgz",
+  "_id": "language-gherkin-i18n@1.3.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/language-gherkin-i18n",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\Richi\\AppData\\Local\\Temp\\d-117112-6588-di5sl6\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\Richi\\AppData\\Local\\Temp\\d-117112-6588-di5sl6\\package.tgz",
+    "spec": "C:\\Users\\Richi\\AppData\\Local\\Temp\\d-117112-6588-di5sl6\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-117112-6588-di5sl6\\package.tgz",
+  "_shasum": "a86e333c6b687dd087216e3ff73e779740103fd5",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\Richi\\AppData\\Local\\Temp\\d-117112-6588-di5sl6\\package.tgz",
+  "_where": "C:\\Users\\Richi\\AppData\\Local\\Temp\\apm-install-dir-117112-6588-1ctahb5",
+  "bugs": {
+    "url": "https://github.com/mackoj/language-gherkin-i18n/issues"
+  },
+  "dependencies": {},
+  "description": "Gherkin language in Atom with support of Internationalization in more 68 languages",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/mackoj/language-gherkin-i18n",
+  "license": "MIT",
+  "name": "language-gherkin-i18n",
+  "optionalDependencies": {},
+  "readme": "# Gherkin language support in Atom\n\nThis `Gherkin language in Atom` plugin offers:\n\n  * Syntax Coloring based on [Atom Language Gherkin](https://github.com/gigapixel/atom-language-gherkin)\n  * Internationalization in 68 languages based on [gherkin-languages.json](https://github.com/cucumber/gherkin/blob/master/gherkin-languages.json)\n  * Simple Completion in 68 languages\n\nThe languages matching is done by looking at the very first line of each of the `.feature` files.\n\nIn order to use a specific language, set the first line of your feature file with the following pattern:  `# language: <langID>`, e.g. `# language: fr`.\n\nWhen `# language: <langID>` is not specified, it defaults to English.\n\nThe source documentation is the [Cucumber documentation for spoken languages](https://github.com/cucumber/cucumber/wiki/Spoken-languages)\n\nSyntax color works better with Atom One Dark theme.\n\n![English / French / German / Japanese / Hebrew](https://github.com/mackoj/language-gherkin-i18n/blob/develop/preview.gif)\n\n# Compatibility\n\n  * Gherkin (3.2.0)\n\n# List of supported languages\n\n|Language Name(English)|Language Name(Native)|langID|\n|----------------------|---------------------|------|\n|Afrikaans|Afrikaans|af|\n|Arabic|العربية|ar|\n|Armenian|հայերեն|am|\n|Australian|Australian|en-au|\n|Bosnian|Bosanski|bs|\n|Bulgarian|български|bg|\n|Catalan|català|ca|\n|Chinese simplified|简体中文|zh-CN|\n|Chinese traditional|繁體中文|zh-TW|\n|Creole|kreyòl|ht|\n|Croatian|hrvatski|hr|\n|Czech|Česky|cs|\n|Danish|dansk|da|\n|Dutch|Nederlands|nl|\n|Emoji|😀|em|\n|English|English|en|\n|Esperanto|Esperanto|eo|\n|Estonian|eesti keel|et|\n|Finnish|suomi|fi|\n|French|français|fr|\n|Galician|galego|gl|\n|German|Deutsch|de|\n|Greek|Ελληνικά|el|\n|Gujarati|ગુજરાતી|gj|\n|Hebrew|עברית|he|\n|Hindi|हिंदी|hi|\n|Hungarian|magyar|hu|\n|Icelandic|Íslenska|is|\n|Indonesian|Bahasa Indonesia|id|\n|Irish|Gaeilge|ga|\n|Italian|italiano|it|\n|Japanese|日本語|ja|\n|Javanese|Basa Jawa|jv|\n|Kannada|ಕನ್ನಡ|kn|\n|Klingon|tlhIngan|tlh|\n|Korean|한국어|ko|\n|LOLCAT|LOLCAT|en-lol|\n|Latvian|latviešu|lv|\n|Lithuanian|lietuvių kalba|lt|\n|Luxemburgish|Lëtzebuergesch|lu|\n|Malay|Bahasa Melayu|bm|\n|Mongolian|монгол|mn|\n|Norwegian|norsk|no|\n|Old English|Englisc|en-old|\n|Panjabi|ਪੰਜਾਬੀ|pa|\n|Persian|فارسی|fa|\n|Pirate|Pirate|en-pirate|\n|Polish|polski|pl|\n|Portuguese|português|pt|\n|Romanian|română|ro|\n|Russian|русский|ru|\n|Scouse|Scouse|en-Scouse|\n|Serbian (Latin)|Srpski (Latinica)|sr-Latn|\n|Serbian|Српски|sr-Cyrl|\n|Slovak|Slovensky|sk|\n|Slovenian|Slovenski|sl|\n|Spanish|español|es|\n|Swedish|Svenska|sv|\n|Tamil|தமிழ்|ta|\n|Tatar|Татарча|tt|\n|Telugu|తెలుగు|tl|\n|Thai|ไทย|th|\n|Turkish|Türkçe|tr|\n|Ukrainian|Українська|uk|\n|Urdu|اردو|ur|\n|Uzbek|Узбекча|uz|\n|Vietnamese|Tiếng Việt|vi|\n|Welsh|Cymraeg|cy-GB|\n\n# Contributing\n\nContributions are greatly appreciated.\nIf you find a bug please consider creating an issue for it. To be treated fast consider adding a test case in the spec file in order to reproduce it.\nPlease fork this repository and open a pull request to add snippets, make grammar tweaks, etc.\n\n# How it is made\n\nUsing a template for the grammar and another one for the autocompletion, we parse the [gherkin-languages.json](https://github.com/cucumber/gherkin/blob/master/gherkin-languages.json) file to generate the corresponding files for each language.\n\n# ToDo\n\n  * Add unit tests\n  * Add Snippets for table and most used keyword (feature, scenario, etc...)\n  * Improve parser\n  * Improve documentation\n  * Automate `language-gherkin-i18n` update by watching `gherkin-languages.json` update in its released version\n  * Redo all the scrips in a more cleaner way and with Javascript\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mackoj/language-gherkin-i18n.git"
+  },
+  "version": "1.3.4"
+}
